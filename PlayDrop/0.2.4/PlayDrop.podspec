@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PlayDrop"
-  s.version      = "0.1.0"
+  s.version      = "0.2.4"
   s.summary      = "Helper classes to play an audio file"
 
   s.description  = <<-DESC
@@ -59,10 +59,10 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "8.0"
+  # s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "8.0"
+  # s.ios.deployment_target = "7.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -100,8 +100,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
-  # s.frameworks = "UIKit", "CoreData"
+  # s.frameworks = "AudioToolbox"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
